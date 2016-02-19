@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">健康體適能APP</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_situps">JumpActivity</string>
+    <string name="title_activity_jump">Map</string>
+
+    <string name="start">開始記錄</string>
+    <string name="finish">結束紀錄</string>
+    <string name="my_track">顯示結果</string>
+    <string name="relocat">重新定位</string>
+    <string name="title_activity_height">Map</string>
+</resources>
