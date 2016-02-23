@@ -259,15 +259,11 @@ public class JumpActivity extends FragmentActivity implements OnClickListener {
         switch(v.getId()){
             case R.id.myButton1:    //開始記錄
                 distance=0; //總長度=0
-                getLocationPrivider();
-                mLocationManager.requestLocationUpdates(mLocationPrivider, 1000, 0, mLocationListener);
                 p1 = new LatLng(mLocation.getLatitude(), mLocation.getLongitude());
                 start_point.setText("起始點" + "\n緯度： " + p1.latitude + "\n經度：" + p1.longitude);
                 //切換按鈕狀態
                 break;
             case R.id.myButton2:    //結束記錄
-                getLocationPrivider();
-                mLocationManager.requestLocationUpdates(mLocationPrivider, 1000, 0, mLocationListener);
                 p2 = new LatLng(mLocation.getLatitude(), mLocation.getLongitude());
                 finish_point.setText("終止點" + "\n緯度： " + p2.latitude + "\n經度：" + p2.longitude);
                 break;
