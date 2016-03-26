@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 
     private Button jump_button;
     private Button situps_button;
-    private Button height_button;
+    private Button height_button;//add button
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
